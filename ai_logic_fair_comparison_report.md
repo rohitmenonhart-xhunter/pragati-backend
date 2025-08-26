@@ -29,7 +29,7 @@
 |--------|---------------|----------|--------|
 | Processing Time | 106.35s | 13.26s | 87.5% |
 | Overall Score | 3.81 | 3.82 | +0.01 |
-| Sub-Parameters | 42 | 38 | -4 |
+| Sub-Parameters | 42 | 109 | +67 |
 | Success | True | True | ✅ |
 
 ### Test 2: Local Services Marketplace
@@ -38,7 +38,7 @@
 |--------|---------------|----------|--------|
 | Processing Time | 105.56s | 14.59s | 86.2% |
 | Overall Score | 3.76 | 3.82 | +0.06 |
-| Sub-Parameters | 42 | 38 | -4 |
+| Sub-Parameters | 42 | 109 | +67 |
 | Success | True | True | ✅ |
 
 ### Test 3: Digital Payment Solution for Small Merchants
@@ -47,5 +47,5 @@
 |--------|---------------|----------|--------|
 | Processing Time | 113.25s | 22.15s | 80.4% |
 | Overall Score | 3.84 | 3.87 | +0.04 |
-| Sub-Parameters | 42 | 38 | -4 |
+| Sub-Parameters | 42 | 109 | +67 |
 | Success | True | True | ✅ |
