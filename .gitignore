@@ -1,0 +1,102 @@
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Service Account Keys & Credentials
+serviceAccountKey.json
+*.pem
+*.key
+*.crt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+venv-new/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flask
+instance/
+.webassets-cache
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# AI Logic Guide (as requested)
+ai_logic_guide.txt
+
+# Test and comparison scripts (optional)
+ai_logic_openai_comparison.py
+real_startup_accuracy_test.py
+
+# Generated reports and images (keep in repo for demo)
+# startup_accuracy_test_results.png
+# startup_accuracy_test_report.md
+# ai_logic_fair_comparison.png
+# ai_logic_fair_comparison_report.md

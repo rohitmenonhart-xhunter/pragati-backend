@@ -232,32 +232,66 @@ The marginal accuracy difference (±0.3%) in aggregate testing actually validate
 
 ## 🚀 Quick Start
 
+### **Prerequisites**
+- **Conda** (Anaconda or Miniconda)
+- **Python 3.11+**
+- **Git**
+
 ### **Environment Setup**
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/rohitmenonhart-xhunter/pragati-backend.git
 cd pragati-backend
 
-# Activate Conda environment
+# Create Conda environment with Python 3.11
+conda create -n pragati-backend python=3.11 -y
+
+# Activate the environment
 conda activate pragati-backend
 
-# Install dependencies
+# Install core dependencies via Conda (recommended)
+conda install -c conda-forge flask pymongo boto3 pyjwt bcrypt -y
+
+# Install remaining dependencies via pip
 pip install -r requirements.txt
 ```
 
 ### **Configuration**
 ```bash
-# Set up environment variables
+# Copy environment template
 cp .env.example .env
-# Configure your API keys and database connections
+
+# Edit .env file with your configurations:
+# - Add your API keys (OpenAI, Gemini)
+# - Configure database connection
+# - Set up AWS credentials
+# - Add JWT secret key
 ```
+
+### **Required API Keys & Services**
+1. **OpenAI API Key**: Get from [OpenAI Platform](https://platform.openai.com/api-keys)
+2. **Google Gemini API Key**: Get from [Google AI Studio](https://makersuite.google.com/app/apikey)
+3. **MongoDB**: Local installation or [MongoDB Atlas](https://www.mongodb.com/atlas)
+4. **AWS Account**: For S3 and SES services (optional)
 
 ### **Running the Application**
 ```bash
+# Ensure Conda environment is activated
+conda activate pragati-backend
+
 # Start the Flask development server
 python -m flask run
 
 # The API will be available at http://127.0.0.1:8000
+```
+
+### **Verification**
+```bash
+# Test the installation
+python -c "from app.ai_logic_v2 import EvaluationFramework; print('✅ V2 AI Logic loaded successfully')"
+
+# Check parameter count
+python -c "from app.ai_logic_v2 import EvaluationFramework; f=EvaluationFramework(); print(f'✅ Total parameters: {sum(len(s) for p in f.SUB_PARAMETER_WEIGHTS.values() for s in p.values())}')"
 ```
 
 ---
