@@ -353,7 +353,7 @@ Authorization: Bearer <jwt-token>
 This software is proprietary and confidential. All rights reserved by Stacia Corp.  
 See the [LICENSE](LICENSE) file for complete terms and restrictions.
 
-**© 2024 Stacia Corp - Pragati Innovation Suite**  
+**© 2025 Stacia Corp - Pragati Innovation Suite**  
 **PRIVATE & CONFIDENTIAL - Unauthorized use is strictly prohibited.**
 
 ## 🤝 Support
