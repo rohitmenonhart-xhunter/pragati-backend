@@ -4,6 +4,8 @@
 
 This guide provides step-by-step instructions for setting up the Pragati Innovation Suite development environment with Conda and Python 3.11.
 
+**⚠️ NOTICE: This is proprietary software owned by Stacia Corp. Unauthorized access, use, or distribution is strictly prohibited.**
+
 ## 📋 Prerequisites
 
 ### Required Software
